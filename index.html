@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10110f" />
+  <meta name="description" content="Shivansh Singh — Mechanical Engineering student exploring design, CAD, and simulation." />
+  <title>Shivansh Singh — Design in Motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand magnetic" href="#top" aria-label="Shivansh Singh home">SS<span>®</span></a>
+    <div class="header-note"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+    <button class="menu-toggle magnetic" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">MENU <span class="menu-icon">＋</span></button>
+    <nav id="nav-links" class="nav-links" aria-label="Main navigation">
+      <a href="#about">About <i>01</i></a><a href="#work">Selected work <i>02</i></a><a href="#toolkit">Toolkit <i>03</i></a><a href="#contact">Contact <i>04</i></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad" aria-labelledby="hero-title">
+      <div class="hero-meta reveal"><span>MECHANICAL ENGINEERING · LUCKNOW, INDIA</span><span>PORTFOLIO / 2026—27</span></div>
+      <div class="hero-title-wrap">
+        <p class="eyebrow reveal">CURIOUS BY DESIGN. BUILT TO FIGURE IT OUT.</p>
+        <h1 id="hero-title" class="hero-title"><span class="title-line"><span class="title-inner">Ideas into</span></span><span class="title-line title-line-two"><span class="title-inner"><em>motion</em><span class="asterisk">✳</span></span></span></h1>
+        <div class="hero-bottom reveal"><p>I'm <strong>Shivansh Singh</strong> — a Mechanical Engineering student exploring the space between precise design, practical engineering, and creative technology.</p><a class="round-link magnetic" href="#about" aria-label="Scroll to discover"><span>SCROLL<br>TO EXPLORE</span><b>↓</b></a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><div class="core-cut"></div><div class="core-label">MAKE<br>IT MOVE</div></div>
+        <div class="orbit-tag tag-one">CAD / 01</div><div class="orbit-tag tag-two">THINK IN SYSTEMS</div><div class="orbit-tag tag-three">ITERATE ↗</div>
+      </div>
+      <div class="hero-index"><span>SCROLL TO SHIFT PERSPECTIVE</span><span>↓ 001—004</span></div>
+    </section>
+
+    <section id="about" class="about section-pad section-light">
+      <div class="section-kicker reveal"><span>01 / THE PERSON</span><span>A WORK IN PROGRESS — BY DESIGN</span></div>
+      <div class="about-grid">
+        <h2 class="display reveal">Engineering is where <em>curiosity</em> gets a blueprint.</h2>
+        <div class="about-copy reveal"><p class="large-copy">I’m a third-year B.Tech Mechanical Engineering student at the University of Lucknow. I enjoy learning how ideas become things you can draw, build, test, and improve.</p><p>From developing my CAD foundations to exploring simulation and digital projects, I’m building a practical toolkit one experiment at a time. This portfolio is a snapshot of that process—not the finish line.</p><a class="text-link" href="#contact">LET’S CONNECT <span>↗</span></a></div>
+      </div>
+      <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>OBSERVE · DESIGN · TEST · REFINE · </span><span>OBSERVE · DESIGN · TEST · REFINE · </span></div></div>
+    </section>
+
+    <section id="work" class="work section-pad">
+      <div class="section-kicker reveal"><span>02 / SELECTED WORK</span><span>SMALL STEPS. REAL SKILLS.</span></div>
+      <div class="work-heading reveal"><h2 class="display">Curiosity,<br><em>in practice.</em></h2><p>Projects and learning experiences that show what I’m exploring. Tap a card to see the details.</p></div>
+      <div class="project-list">
+        <button class="project-card reveal" data-project="cad" aria-label="Open AutoCAD learning details">
+          <span class="project-number">01</span><div class="project-visual visual-cad"><div class="cad-frame"><div class="cad-shape"></div><span class="dimension dim-x">80.00</span><span class="dimension dim-y">45.00</span><span class="cad-cross">＋</span></div><span class="visual-stamp">2D / CAD</span></div>
+          <span class="project-info"><span class="project-name">AutoCAD foundations</span><span class="project-type">6-WEEK ONLINE COURSE · ZYLPHON</span></span><span class="project-arrow">↗</span>
+        </button>
+        <button class="project-card reveal" data-project="space" aria-label="Open NASA Space Apps project details">
+          <span class="project-number">02</span><div class="project-visual visual-space"><div class="planet planet-one"></div><div class="planet planet-two"></div><div class="space-orbit"></div><span class="space-word">BEYOND<br>THE KNOWN</span><span class="visual-stamp">EXPLORATION / WEB</span></div>
+          <span class="project-info"><span class="project-name">Abandoned but not Forgotten</span><span class="project-type">NASA SPACE APPS CHALLENGE 2026 · CONCEPT</span></span><span class="project-arrow">↗</span>
+        </button>
+        <button class="project-card reveal" data-project="portfolio" aria-label="Open portfolio project details">
+          <span class="project-number">03</span><div class="project-visual visual-web"><div class="browser-window"><div class="browser-top"><i></i><i></i><i></i></div><div class="browser-lines"><b></b><b></b><b></b></div><div class="browser-orb"></div></div><span class="visual-stamp">INTERACTION / WEB</span></div>
+          <span class="project-info"><span class="project-name">An evolving digital portfolio</span><span class="project-type">FRONT-END · INTERACTION DESIGN</span></span><span class="project-arrow">↗</span>
+        </button>
+      </div>
+      <p class="project-note">* Concepts and learning work are labelled honestly. More technical projects will be added as they’re completed.</p>
+    </section>
+
+    <section id="toolkit" class="toolkit section-pad">
+      <div class="section-kicker reveal"><span>03 / CURRENT TOOLKIT</span><span>LEARN · APPLY · REPEAT</span></div>
+      <h2 class="display reveal">Tools are only<br>as good as the <em>questions.</em></h2>
+      <div class="skill-grid">
+        <article class="skill-tile reveal"><span class="skill-count">01</span><div class="skill-symbol symbol-cube">◇</div><h3>CAD & drafting</h3><p>AutoCAD foundations, drawing logic, dimensions, and clean technical communication.</p><span class="skill-status">FOUNDATION IN PROGRESS</span></article>
+        <article class="skill-tile reveal"><span class="skill-count">02</span><div class="skill-symbol symbol-axis">↗</div><h3>Mechanical thinking</h3><p>Core engineering concepts, problem-solving, and learning to validate assumptions.</p><span class="skill-status">BUILDING THE BASICS</span></article>
+        <article class="skill-tile reveal"><span class="skill-count">03</span><div class="skill-symbol symbol-wave">〰</div><h3>Simulation & analysis</h3><p>Exploring FEA and CFD workflows with an emphasis on honest assumptions and results.</p><span class="skill-status">EXPLORING</span></article>
+        <article class="skill-tile reveal"><span class="skill-count">04</span><div class="skill-symbol symbol-code">{ }</div><h3>Digital projects</h3><p>Building simple web experiences and learning how design, content, and code fit together.</p><span class="skill-status">LEARNING BY MAKING</span></article>
+      </div>
+      <div class="learning-note reveal"><span class="note-mark">✳</span><p><strong>Honest progress over inflated claims.</strong><br>This portfolio separates completed experience from skills I’m still learning. That’s part of the process.</p></div>
+    </section>
+
+    <section class="manifesto section-pad">
+      <div class="manifesto-top reveal"><span>THE WORK IS NEVER REALLY DONE</span><span>↘ KEEP GOING</span></div>
+      <p class="manifesto-line" aria-label="Good work is a process, not a moment."><span class="reveal-word">Good work</span> <span class="reveal-word">is a</span> <span class="reveal-word"><em>process,</em></span><br><span class="reveal-word">not a</span> <span class="reveal-word"><em>moment.</em></span></p>
+      <div class="manifesto-bottom"><span>STAY CURIOUS.</span><span>MAKE SOMETHING USEFUL.</span></div>
+    </section>
+
+    <section id="contact" class="contact section-pad">
+      <div class="section-kicker reveal"><span>04 / YOUR TURN</span><span>GOOD THINGS START WITH A CONVERSATION</span></div>
+      <p class="eyebrow reveal">HAVE A PROJECT, IDEA, OR OPPORTUNITY?</p>
+      <h2 class="contact-title reveal">Let’s make<br><em>something</em><br>matter.</h2>
+      <a class="contact-button magnetic reveal" href="mailto:shivanshsinghlu24@gmail.com"><span>shivanshsinghlu24@gmail.com</span><b>↗</b></a>
+      <div class="social-links reveal"><a href="https://www.linkedin.com/in/shivansh-singh-a24973335" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/shivanshsinghlu24" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="mailto:shivanshsinghlu24@gmail.com">EMAIL ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#top">SS<span>®</span></a><span>DESIGNED TO KEEP MOVING.</span><a href="#top" class="back-top">BACK TO TOP ↑</a><span>© <span id="year">2026</span> SHIVANSH SINGH</span></footer>
+
+  <dialog id="project-dialog" class="project-dialog"><button class="dialog-close" id="dialog-close" aria-label="Close details">×</button><p class="eyebrow" id="dialog-kicker">PROJECT / DETAILS</p><h2 id="dialog-title">Project title</h2><div id="dialog-body"></div><a class="text-link" id="dialog-link" href="#contact">ASK ME ABOUT THIS <span>↗</span></a></dialog>
+  <div class="transition-curtain" aria-hidden="true"><span>KEEP EXPLORING ✳</span></div>
+</body>
+</html>
